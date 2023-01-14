@@ -1,4 +1,4 @@
-# Sparky
+# Sparky 
 sparky app is in app to motivate you through the days✨
 
 # Challenge Statement
@@ -10,9 +10,15 @@ sparky app is in app to motivate you through the days✨
 ##### create an app that motivate and breaking people routine through tasks and quotes
 
 
-# Technologies & Tools
+# Technologies & Tools 🛠️
 - SwiftUI
 - Accessibility voice over
 - Localization
 
-# Demo of the App
+# Demo of the App 📹
+
+
+# Challenge Summary!
+
+
+[Uploading Screenshot 1444-06-22 at 2.33.01 AM.png…]()
