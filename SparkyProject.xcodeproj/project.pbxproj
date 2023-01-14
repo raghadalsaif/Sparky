@@ -8,12 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		562B441429735E240051A354 /* SparkyProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562B441329735E240051A354 /* SparkyProjectApp.swift */; };
-		562B441629735E240051A354 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562B441529735E240051A354 /* ContentView.swift */; };
+		562B441629735E240051A354 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562B441529735E240051A354 /* Home.swift */; };
 		562B441829735E250051A354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 562B441729735E250051A354 /* Assets.xcassets */; };
 		562B441B29735E250051A354 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 562B441A29735E250051A354 /* Preview Assets.xcassets */; };
 		562B442529735E250051A354 /* SparkyProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562B442429735E250051A354 /* SparkyProjectTests.swift */; };
 		562B442F29735E250051A354 /* SparkyProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562B442E29735E250051A354 /* SparkyProjectUITests.swift */; };
 		562B443129735E250051A354 /* SparkyProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562B443029735E250051A354 /* SparkyProjectUITestsLaunchTests.swift */; };
+		562B443E29735E8E0051A354 /* arabic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562B443D29735E8E0051A354 /* arabic.swift */; };
+		562B444029735EEC0051A354 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562B443F29735EEC0051A354 /* Launch Screen.storyboard */; };
+		562B444829735FAA0051A354 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 562B444729735FAA0051A354 /* WidgetKit.framework */; };
+		562B444A29735FAA0051A354 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 562B444929735FAA0051A354 /* SwiftUI.framework */; };
+		562B444D29735FAA0051A354 /* SparkyWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562B444C29735FAA0051A354 /* SparkyWidgetBundle.swift */; };
+		562B444F29735FAA0051A354 /* SparkyWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562B444E29735FAA0051A354 /* SparkyWidgetLiveActivity.swift */; };
+		562B445129735FAA0051A354 /* SparkyWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562B445029735FAA0051A354 /* SparkyWidget.swift */; };
+		562B445429735FAB0051A354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 562B445329735FAB0051A354 /* Assets.xcassets */; };
+		562B445629735FAB0051A354 /* SparkyWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 562B445229735FAA0051A354 /* SparkyWidget.intentdefinition */; };
+		562B445729735FAB0051A354 /* SparkyWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 562B445229735FAA0051A354 /* SparkyWidget.intentdefinition */; };
+		562B445A29735FAB0051A354 /* SparkyWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 562B444529735FAA0051A354 /* SparkyWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		562B4461297360430051A354 /* SparkyConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562B445F29735FFD0051A354 /* SparkyConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,12 +43,33 @@
 			remoteGlobalIDString = 562B440F29735E240051A354;
 			remoteInfo = SparkyProject;
 		};
+		562B445829735FAB0051A354 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 562B440829735E240051A354 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 562B444429735FAA0051A354;
+			remoteInfo = SparkyWidgetExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		562B445E29735FAB0051A354 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				562B445A29735FAB0051A354 /* SparkyWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		562B441029735E240051A354 /* SparkyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparkyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		562B441329735E240051A354 /* SparkyProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparkyProjectApp.swift; sourceTree = "<group>"; };
-		562B441529735E240051A354 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		562B441529735E240051A354 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		562B441729735E250051A354 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		562B441A29735E250051A354 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		562B442029735E250051A354 /* SparkyProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SparkyProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +77,18 @@
 		562B442A29735E250051A354 /* SparkyProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SparkyProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		562B442E29735E250051A354 /* SparkyProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparkyProjectUITests.swift; sourceTree = "<group>"; };
 		562B443029735E250051A354 /* SparkyProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparkyProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		562B443D29735E8E0051A354 /* arabic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arabic.swift; sourceTree = "<group>"; };
+		562B443F29735EEC0051A354 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		562B444529735FAA0051A354 /* SparkyWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SparkyWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		562B444729735FAA0051A354 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		562B444929735FAA0051A354 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		562B444C29735FAA0051A354 /* SparkyWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparkyWidgetBundle.swift; sourceTree = "<group>"; };
+		562B444E29735FAA0051A354 /* SparkyWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparkyWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		562B445029735FAA0051A354 /* SparkyWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparkyWidget.swift; sourceTree = "<group>"; };
+		562B445229735FAA0051A354 /* SparkyWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = SparkyWidget.intentdefinition; sourceTree = "<group>"; };
+		562B445329735FAB0051A354 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		562B445529735FAB0051A354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		562B445F29735FFD0051A354 /* SparkyConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparkyConfig.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,15 +113,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		562B444229735FAA0051A354 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562B444A29735FAA0051A354 /* SwiftUI.framework in Frameworks */,
+				562B444829735FAA0051A354 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		562B440729735E240051A354 = {
 			isa = PBXGroup;
 			children = (
+				562B443F29735EEC0051A354 /* Launch Screen.storyboard */,
 				562B441229735E240051A354 /* SparkyProject */,
 				562B442329735E250051A354 /* SparkyProjectTests */,
 				562B442D29735E250051A354 /* SparkyProjectUITests */,
+				562B444B29735FAA0051A354 /* SparkyWidget */,
+				562B444629735FAA0051A354 /* Frameworks */,
 				562B441129735E240051A354 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,6 +144,7 @@
 				562B441029735E240051A354 /* SparkyProject.app */,
 				562B442029735E250051A354 /* SparkyProjectTests.xctest */,
 				562B442A29735E250051A354 /* SparkyProjectUITests.xctest */,
+				562B444529735FAA0051A354 /* SparkyWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,7 +153,8 @@
 			isa = PBXGroup;
 			children = (
 				562B441329735E240051A354 /* SparkyProjectApp.swift */,
-				562B441529735E240051A354 /* ContentView.swift */,
+				562B441529735E240051A354 /* Home.swift */,
+				562B443D29735E8E0051A354 /* arabic.swift */,
 				562B441729735E250051A354 /* Assets.xcassets */,
 				562B441929735E250051A354 /* Preview Content */,
 			);
@@ -127,6 +186,29 @@
 			path = SparkyProjectUITests;
 			sourceTree = "<group>";
 		};
+		562B444629735FAA0051A354 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				562B444729735FAA0051A354 /* WidgetKit.framework */,
+				562B444929735FAA0051A354 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		562B444B29735FAA0051A354 /* SparkyWidget */ = {
+			isa = PBXGroup;
+			children = (
+				562B444C29735FAA0051A354 /* SparkyWidgetBundle.swift */,
+				562B444E29735FAA0051A354 /* SparkyWidgetLiveActivity.swift */,
+				562B445029735FAA0051A354 /* SparkyWidget.swift */,
+				562B445229735FAA0051A354 /* SparkyWidget.intentdefinition */,
+				562B445329735FAB0051A354 /* Assets.xcassets */,
+				562B445529735FAB0051A354 /* Info.plist */,
+				562B445F29735FFD0051A354 /* SparkyConfig.swift */,
+			);
+			path = SparkyWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,10 +219,12 @@
 				562B440C29735E240051A354 /* Sources */,
 				562B440D29735E240051A354 /* Frameworks */,
 				562B440E29735E240051A354 /* Resources */,
+				562B445E29735FAB0051A354 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				562B445929735FAB0051A354 /* PBXTargetDependency */,
 			);
 			name = SparkyProject;
 			productName = SparkyProject;
@@ -183,6 +267,23 @@
 			productReference = 562B442A29735E250051A354 /* SparkyProjectUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		562B444429735FAA0051A354 /* SparkyWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 562B445B29735FAB0051A354 /* Build configuration list for PBXNativeTarget "SparkyWidgetExtension" */;
+			buildPhases = (
+				562B444129735FAA0051A354 /* Sources */,
+				562B444229735FAA0051A354 /* Frameworks */,
+				562B444329735FAA0051A354 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SparkyWidgetExtension;
+			productName = SparkyWidgetExtension;
+			productReference = 562B444529735FAA0051A354 /* SparkyWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,6 +305,9 @@
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = 562B440F29735E240051A354;
 					};
+					562B444429735FAA0051A354 = {
+						CreatedOnToolsVersion = 14.2;
+					};
 				};
 			};
 			buildConfigurationList = 562B440B29735E240051A354 /* Build configuration list for PBXProject "SparkyProject" */;
@@ -222,6 +326,7 @@
 				562B440F29735E240051A354 /* SparkyProject */,
 				562B441F29735E250051A354 /* SparkyProjectTests */,
 				562B442929735E250051A354 /* SparkyProjectUITests */,
+				562B444429735FAA0051A354 /* SparkyWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -231,6 +336,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				562B444029735EEC0051A354 /* Launch Screen.storyboard in Resources */,
 				562B441B29735E250051A354 /* Preview Assets.xcassets in Resources */,
 				562B441829735E250051A354 /* Assets.xcassets in Resources */,
 			);
@@ -250,6 +356,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		562B444329735FAA0051A354 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562B445429735FAB0051A354 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -257,8 +371,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				562B441629735E240051A354 /* ContentView.swift in Sources */,
+				562B445729735FAB0051A354 /* SparkyWidget.intentdefinition in Sources */,
+				562B441629735E240051A354 /* Home.swift in Sources */,
 				562B441429735E240051A354 /* SparkyProjectApp.swift in Sources */,
+				562B443E29735E8E0051A354 /* arabic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +395,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		562B444129735FAA0051A354 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562B445629735FAB0051A354 /* SparkyWidget.intentdefinition in Sources */,
+				562B4461297360430051A354 /* SparkyConfig.swift in Sources */,
+				562B445129735FAA0051A354 /* SparkyWidget.swift in Sources */,
+				562B444F29735FAA0051A354 /* SparkyWidgetLiveActivity.swift in Sources */,
+				562B444D29735FAA0051A354 /* SparkyWidgetBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -291,6 +419,11 @@
 			isa = PBXTargetDependency;
 			target = 562B440F29735E240051A354 /* SparkyProject */;
 			targetProxy = 562B442B29735E250051A354 /* PBXContainerItemProxy */;
+		};
+		562B445929735FAB0051A354 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 562B444429735FAA0051A354 /* SparkyWidgetExtension */;
+			targetProxy = 562B445829735FAB0051A354 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -412,6 +545,7 @@
 		562B443529735E250051A354 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -422,6 +556,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -440,6 +575,7 @@
 		562B443629735E250051A354 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +586,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -537,6 +674,58 @@
 			};
 			name = Release;
 		};
+		562B445C29735FAB0051A354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SparkyWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SparkyWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = appleaca.SparkyProject.SparkyWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		562B445D29735FAB0051A354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SparkyWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SparkyWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = appleaca.SparkyProject.SparkyWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -572,6 +761,15 @@
 			buildConfigurations = (
 				562B443B29735E250051A354 /* Debug */,
 				562B443C29735E250051A354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		562B445B29735FAB0051A354 /* Build configuration list for PBXNativeTarget "SparkyWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				562B445C29735FAB0051A354 /* Debug */,
+				562B445D29735FAB0051A354 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

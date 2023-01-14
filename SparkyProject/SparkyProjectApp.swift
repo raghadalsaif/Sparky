@@ -8,10 +8,11 @@
 import SwiftUI
 
 @main
+//good luck💪
 struct SparkyProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Home()
         }
     }
 }
