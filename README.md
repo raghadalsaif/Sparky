@@ -7,7 +7,7 @@ sparky app is in app to motivate you through the days✨
 
 # Solution Concept
 
-##### create an app that motivate and breaking people routine through daily tasks and quotes
+##### create an app that motivate and breaking people routine through daily tasks and quotes, so every day you will receive a motivation quotes or a tasks that you shoulde accomplish through the day.  
 
 
 # Technologies & Tools 🛠️
@@ -22,9 +22,6 @@ https://user-images.githubusercontent.com/107502187/212533239-cf44853d-ac82-4c8a
 
 
 ---
-
-
-
 
 
 https://user-images.githubusercontent.com/107502187/212533431-a31b09b3-403e-4c27-975c-16d38548195c.mov
