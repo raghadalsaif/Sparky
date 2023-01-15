@@ -21,4 +21,11 @@ sparky app is in app to motivate you through the days✨
 # Challenge Summary!
 
 
-<img width="1512" alt="Screenshot 1444-06-22 at 2 33 01 AM" src="https://user-images.githubusercontent.com/107502187/212501693-b2c189e9-6deb-4300-84ac-9161bab99b18.png">
+
+<img width="1512" alt="Screenshot 1444-06-22 at 11 53 28 AM" src="https://user-images.githubusercontent.com/107502187/212531832-b93052d6-c1a2-49d1-a523-968c1c95ea71.png">
+
+# Developers 👩🏼‍💻
+
+[RAGHAD ALSAIF](https://github.com/raghadalsaif)
+
+[ Alanoud Mohammed Almansour](https://github.com/AlanoudAM9)
